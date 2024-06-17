@@ -1,0 +1,356 @@
+.navbar{
+    background-image: url(https://i.pinimg.com/originals/22/66/19/226619a3bd7ddd41ce861f2c96976b79.jpg);
+    background-repeat: no-repeat;
+    background-size: 80
+    rem 50rem;
+    background-position: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 5px ridge darkred;
+    box-shadow: 2px 2px 3px ;
+}
+.btn{
+    color: gold;
+    background-color: brown;
+}
+.nav-link   {
+    color: gold;
+    font-family:serif;
+}
+
+.navbar-brand{
+    color: gold;
+}
+body{
+    background-image: url(https://i.pinimg.com/736x/b7/c3/38/b7c3388f5c8a9d9f326bac1c0acc30d5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+footer{
+    background-color: maroon;
+    color: gold;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.dropdown-item{
+    color: gold;
+}
+.dropdown-menu{
+    color: slategrey;
+}
+
+.dropdown-menu{
+    border: 3px goldenrod solid;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.conteudo{
+    flex: 1;
+    padding: 20px;
+}
+
+.rodape{
+    background-color: #943600;
+    color: rgb(255, 0, 0);
+    height: auto;
+    width: 100%;
+    font-size: 14px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-top: 10px groove black;
+}
+
+.rodape a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+.rodape p{
+    margin-bottom: 5px;
+}
+
+.rodape-div{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    margin: auto;
+    align-items: stretch;
+    padding: 60px 10px 40px 10px;
+}
+
+.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+    display: flex;
+    width: calc(100% / 4 - 20px);
+    padding: 10px;
+}
+
+.rodape span{
+    font-size: 20px;
+    color: white;
+}
+
+.rodape-direitos{
+    width: calc(100% - 20px);
+    background-color: black;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+        width: calc(50% - 20px);
+        padding: 10px;
+    }
+    .rodape-div{
+        padding: 60px 0px 40px 0px;
+    }
+}
+
+.countainerpai{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    margin: auto;
+    padding: 5px 10px 40px 10px;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.produtos{
+    justify-content: space-between;
+    flex-wrap: wrap;    
+    padding-top: 100px;
+}
+
+.card img{
+    width: 70%;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.card{
+    padding: 20px;    
+    background-image: url(https://i.pinimg.com/originals/74/23/a4/7423a4d32a8ed21a01ba9e327cc65464.png);
+    background-repeat: no-repeat;
+    background-position: 47% -6px;
+    background-size: 180% 103%;
+    width: 200px;
+    height: 360px;
+    padding: 7%;
+    padding-top: 20%;
+    border-radius: 9px;
+    border-color: goldenrod;
+    border-style: inset;
+    box-shadow: 5% 5% 5%;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.preco{
+    font-family: Georgia, serif;
+    border-color: goldenrod;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px;
+    color: rgb(223, 176, 58);
+    background-image: url(https://www.designyourway.net/diverse/darkpat/pattern8-pattern53b.jpg);
+}
+
+.audio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    background-image: url(https://i.pinimg.com/564x/75/41/8b/75418bc89c6a54c4f392b5a23c642e19.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position: center center;
+    border-radius: 7%;
+    height: 24rem;
+    width: 19rem;
+    border: 5px solid;
+    border-color: gold;
+    border-style: inset;
+}
+
+.audio-img{
+    height: 70%;
+    width: 100%;
+}
+
+.texto-musiquinha{
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    height: auto;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: gold;
+    max-width: 100%;
+    width: 19rem;
+    border-color: gold;
+    background-color: black;
+}
+
+.controle{
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 45px;
+}
+.direita {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+}
+.coisinhas{
+    padding: 15px 7px 15px 6px;
+    background-image: url(https://i.pinimg.com/564x/b3/4c/fd/b34cfd699ca09137d5ccbaddb13f391c.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    align-content: center;
+    border: 5px rgba(112, 112, 112, 0.708) inset;
+    margin-top: 10%;
+}
+.fundomtfoda{
+    background-image: url(https://opengameart.org/sites/default/files/buttonStock1h.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: max-content;
+    width: max-content;
+    background-size: cover;
+    background-position-x: center;  
+    padding: 5%;
+    margin: 0 auto;   
+    color: gold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.img-coisinha{
+    height: 100%;
+    width: 81.3%;
+    margin: 0px 10px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.nomecoisinha{
+    width: min-content;
+    height: min-content;
+    size: 18px;
+    display: block;
+    color: gold;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;    
+    text-wrap: nowrap;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.NEGAO{
+    background-color: black;
+    background-size: cover;
+    background-position: end;
+    padding-top: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.topo-coisinhas{
+    text-align: center;
+    color: yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.merda {
+    text-decoration: none;
+    color: inherit;}
+
+    .sus-card{
+        max-height: 20rem;
+        display: flex;
+        border-bottom: 7px groove rgb(145, 67, 9);
+        padding-top: auto;
+    }
+    .card-img-overlay{
+        display: flex;
+        padding: 0%;
+        bottom: auto;
+        top: auto;
+        line-height: 50px;
+        flex-direction: column;
+    }
+    .card-body{
+        background-image: url(https://img.freepik.com/fotos-premium/marco-papel-angustiado-bordes-rasgados-tema-color-sepia-culto-medieval-arte-antiguo-ideas-bg_655090-1291842.jpg?w=360);
+        background-repeat:no-repeat ;
+        background-size: cover !important;
+        background-position: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .class2{
+        text-wrap: auto;
+        color: gold;
+        text-shadow: 
+                -1px -1px 0 #000,   
+                 1px -1px 0 #000,
+                -1px  1px 0 #000,
+                 1px  1px 0 #000;
+                 font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .class{
+        color: black;
+        text-shadow: 
+                -1px -1px 0 rgb(13, 255, 0),  
+                 1px -1px 0 rgb(255, 0, 0),
+                -1px  1px 0 gold,
+                 1px  1px 0 gold;
+    }
+    .custon-card{
+        border: 10px ridge transparent;
+        border-image: url(https://media.istockphoto.com/id/1421836516/vector/black-background-with-abstract-pattern-vector-illustration.jpg?s=612x612&w=0&k=20&c=E_c7gOQElnKHHXc-77N3fo7pdyYbIKB1HuFzuGOYQD0=);
+        border-image-repeat: stretch;
+        border-image-slice: 30; 
+        border-image-width: 10px;
+        border-image-repeat: stretch;
+    }
+    .imagem-it{
+        border-bottom: 5px ridge black;
+    }
+    .teubutao{
+        color: gold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        font-weight: bold;
+        display: flex;
+        margin: 0 auto;
+        text-size-adjust: auto;
+        padding: 0%;
+        border: none;
+        background: none;
+        border: 7px groove gray;
+        background-image: url(https://img.freepik.com/vetores-gratis/fundo-floral-ornamental-abstrato_23-2148355962.jpg?size=626&ext=jpg&ga=GA1.1.1141335507.1718150400&semt=ais_user);
+        background-size: cover;
+    }
+    .meio{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: auto;
+    }
+    .card-title-sss{
+        text-align: center;
+    }
+    .card-text-tafoda{
+        text-align: center;
+    }
+    .card-text-tafoda{
+        text-shadow: 
+        -1px -1px 0 gold,   
+         1px -1px 0 gold,
+        -1px  1px 0 gold,
+         1px  1px 0 gold;
+    }
